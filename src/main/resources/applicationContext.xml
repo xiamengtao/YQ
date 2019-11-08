@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                        http://www.springframework.org/schema/beans/spring-beans.xsd">
+<bean id="person" class="person">
+    <property name="name">
+        <value>张嘎</value>
+    </property>
+    <property name="speak">
+        <value>三天不大鬼子，手都痒痒</value>
+    </property>
+</bean>
+    <bean id="person1" class="person">
+        <property name="name">
+            <value>Rod</value>
+        </property>
+        <property name="speak">
+            <value>世界上有10种人</value>
+        </property>
+    </bean>
+
+</beans>
